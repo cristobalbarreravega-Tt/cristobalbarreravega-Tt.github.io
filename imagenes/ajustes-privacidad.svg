@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" width="420" height="280" role="img" aria-label="Un panel de ajustes con tres interruptores y un candado cerrado">
+  <rect width="420" height="280" rx="14" fill="#EAF3F2"/>
+
+  <rect x="52" y="42" width="250" height="196" rx="14" fill="#FFFFFF" stroke="#CFDBDB" stroke-width="4"/>
+  <rect x="52" y="42" width="250" height="34" rx="14" fill="#263238"/>
+  <rect x="52" y="62" width="250" height="14" fill="#263238"/>
+  <rect x="72" y="53" width="86" height="12" rx="6" fill="#6ED3C7"/>
+
+  <rect x="76" y="102" width="96" height="11" rx="5" fill="#CFDBDB"/>
+  <rect x="228" y="96" width="52" height="24" rx="12" fill="#0F9B8E"/>
+  <circle cx="268" cy="108" r="9" fill="#FFFFFF"/>
+
+  <rect x="76" y="150" width="120" height="11" rx="5" fill="#CFDBDB"/>
+  <rect x="228" y="144" width="52" height="24" rx="12" fill="#0F9B8E"/>
+  <circle cx="268" cy="156" r="9" fill="#FFFFFF"/>
+
+  <rect x="76" y="198" width="74" height="11" rx="5" fill="#CFDBDB"/>
+  <rect x="228" y="192" width="52" height="24" rx="12" fill="#CFDBDB"/>
+  <circle cx="240" cy="204" r="9" fill="#FFFFFF"/>
+
+  <circle cx="330" cy="196" r="42" fill="#263238"/>
+  <path d="M316 192 v-13 a14 14 0 0 1 28 0 v13" fill="none" stroke="#6ED3C7" stroke-width="7" stroke-linecap="round"/>
+  <rect x="310" y="190" width="40" height="30" rx="7" fill="#6ED3C7"/>
+  <circle cx="330" cy="203" r="5" fill="#263238"/>
+</svg>

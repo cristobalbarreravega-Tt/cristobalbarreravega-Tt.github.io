@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Una burbuja de mensaje con una senal de alerta, junto a otra burbuja mas chica">
+  <rect width="600" height="300" rx="16" fill="#EAF3F2"/>
+
+  <path d="M120 72 h300 a22 22 0 0 1 22 22 v104 a22 22 0 0 1 -22 22 h-206 l-46 38 v-38 h-48 a22 22 0 0 1 -22 -22 v-104 a22 22 0 0 1 22 -22z" fill="#FFFFFF" stroke="#CFDBDB" stroke-width="4"/>
+
+  <rect x="152" y="106" width="180" height="13" rx="6" fill="#CFDBDB"/>
+  <rect x="152" y="134" width="238" height="13" rx="6" fill="#CFDBDB"/>
+  <rect x="152" y="162" width="120" height="13" rx="6" fill="#CFDBDB"/>
+
+  <path d="M420 96 L482 202 h-124z" fill="#0F9B8E"/>
+  <rect x="415" y="130" width="10" height="38" rx="5" fill="#FFFFFF" transform="translate(6,0)"/>
+  <circle cx="426" cy="182" r="6" fill="#FFFFFF"/>
+
+  <path d="M470 226 h74 a18 18 0 0 1 18 18 v34 a18 18 0 0 1 -18 18 h-40 l-30 24 v-24 h-4 a18 18 0 0 1 -18 -18 v-34 a18 18 0 0 1 18 -18z" fill="#263238"/>
+  <rect x="492" y="248" width="44" height="8" rx="4" fill="#6ED3C7"/>
+  <rect x="492" y="264" width="28" height="8" rx="4" fill="#6ED3C7"/>
+
+  <g fill="#BBD5D2">
+    <circle cx="72" cy="66" r="8"/><circle cx="50" cy="100" r="5"/><circle cx="90" cy="248" r="6"/>
+  </g>
+</svg>

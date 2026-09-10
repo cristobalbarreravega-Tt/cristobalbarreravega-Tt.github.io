@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" width="420" height="280" role="img" aria-label="Un megafono con ondas de sonido, que representa denunciar o pedir ayuda">
+  <rect width="420" height="280" rx="14" fill="#EAF3F2"/>
+
+  <path d="M96 118 h44 l104 -52 v148 l-104 -52 h-44 a14 14 0 0 1 -14 -14 v-16 a14 14 0 0 1 14 -14z" fill="#0F9B8E"/>
+  <path d="M244 66 v148" stroke="#263238" stroke-width="10" stroke-linecap="round"/>
+  <path d="M152 170 l14 56 a12 12 0 0 0 24 -4 l-8 -44z" fill="#263238"/>
+
+  <g fill="none" stroke="#6ED3C7" stroke-width="9" stroke-linecap="round">
+    <path d="M278 112 a34 34 0 0 1 0 56"/>
+    <path d="M306 92 a62 62 0 0 1 0 96"/>
+  </g>
+
+  <circle cx="118" cy="70" r="20" fill="#263238"/>
+  <path d="M110 70 l6 6 12 -13" fill="none" stroke="#6ED3C7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="#BBD5D2">
+    <circle cx="352" cy="62" r="7"/><circle cx="376" cy="94" r="5"/><circle cx="72" cy="222" r="6"/>
+  </g>
+</svg>

@@ -1,0 +1,402 @@
+/* estilos.css
+   Conectate Seguro - pagina de Juan
+   Liceo Comercial de Los Andes
+
+   Paleta:
+     #263238  grafito oscuro   (encabezado y pie)
+     #37474F  grafito medio
+     #0F9B8E  turquesa         (color principal)
+     #6ED3C7  turquesa claro
+     #EAF3F2  turquesa muy claro (bandas de titulo)
+     #F5F8F8  fondo de la pagina
+     #CFDBDB  bordes
+     #1F2A2E  texto
+     #5F7278  texto secundario
+*/
+
+/* El asterisco aplica a todas las etiquetas.
+   border-box hace que el padding no agrande el ancho. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #F5F8F8;
+  color: #1F2A2E;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---------- encabezado ---------- */
+
+#cabeza {
+  background-color: #263238;
+  border-bottom: 6px solid #0F9B8E;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 42px 20px 34px 20px;
+}
+
+#cabeza h1 {
+  margin: 0;
+  font-size: 38px;
+}
+
+.subtitulo {
+  margin: 8px 0 0 0;
+  color: #6ED3C7;
+  font-size: 17px;
+}
+
+.sello {
+  margin: 16px 0 0 0;
+  color: #9DB0B5;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+
+/* ---------- menu ---------- */
+
+#rutas {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #CFDBDB;
+  text-align: center;
+  padding: 0 14px;
+}
+
+#rutas ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* inline-block deja los enlaces en fila y los baja solos si no caben */
+#rutas li {
+  display: inline-block;
+}
+
+#rutas a {
+  display: inline-block;
+  color: #37474F;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 16px;
+  border-bottom: 4px solid #FFFFFF;
+}
+
+#rutas a:hover {
+  color: #0F9B8E;
+  border-bottom-color: #0F9B8E;
+}
+
+
+/* ---------- cuerpo ---------- */
+
+/* margin: 0 auto centra la columna */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 26px 20px 46px 20px;
+}
+
+section {
+  margin-bottom: 34px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 26px;
+  margin-bottom: 14px;
+}
+
+/* La banda de color detras del titulo. El span va dentro del h2
+   para que el fondo cubra solo el texto y no toda la linea. */
+.banda {
+  display: inline-block;
+  background-color: #EAF3F2;
+  color: #263238;
+  border-left: 6px solid #0F9B8E;
+  padding: 7px 16px;
+  border-radius: 0 8px 8px 0;
+}
+
+h3 {
+  color: #0F9B8E;
+  font-size: 17px;
+  margin-top: 22px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #0F9B8E;
+}
+
+a:hover {
+  color: #263238;
+}
+
+abbr {
+  border-bottom: 2px dotted #0F9B8E;
+  cursor: help;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #CFDBDB;
+  margin: 24px 0;
+}
+
+
+/* ---------- imagenes ---------- */
+
+.ilustra,
+.ilustra-chica {
+  margin: 22px 0 0 0;
+  text-align: center;
+}
+
+/* max-width 100% evita que la imagen se salga en pantallas chicas */
+.ilustra img {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.ilustra-chica img {
+  width: 420px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+figcaption {
+  color: #5F7278;
+  font-size: 13px;
+  margin-top: 7px;
+}
+
+
+/* ---------- señales de alerta ---------- */
+
+.senal {
+  background-color: #FFFFFF;
+  border: 1px solid #CFDBDB;
+  border-top: 4px solid #0F9B8E;
+  border-radius: 4px 4px 10px 10px;
+  padding: 4px 20px 16px 20px;
+  margin-bottom: 14px;
+}
+
+.senal h3 {
+  margin-top: 14px;
+}
+
+.senal p {
+  margin: 0 0 8px 0;
+}
+
+/* la linea final de cada señal, con el consejo concreto */
+.detalle {
+  background-color: #EAF3F2;
+  border-radius: 8px;
+  color: #0B6E64;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+
+/* ---------- el par de contraseñas de ejemplo ---------- */
+
+.par-claves {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 14px;
+}
+
+.par-claves li {
+  background-color: #FFFFFF;
+  border: 1px solid #CFDBDB;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+}
+
+/* el rotulo es la palabrita que va al principio de cada linea */
+.rotulo {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 11px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+/* estos dos son selectores descendientes: pintan el rotulo
+   segun la clase que tenga el <li> que lo contiene */
+.floja .rotulo {
+  background-color: #A61B2B;
+}
+
+.firme .rotulo {
+  background-color: #1A7F5A;
+}
+
+
+/* ---------- listas ---------- */
+
+.chequeo {
+  padding-left: 20px;
+}
+
+.chequeo li {
+  margin-bottom: 8px;
+}
+
+.secuencia {
+  background-color: #FFFFFF;
+  border: 1px solid #CFDBDB;
+  border-radius: 10px;
+  padding: 16px 16px 16px 42px;
+}
+
+.secuencia li {
+  margin-bottom: 8px;
+}
+
+
+/* ---------- tabla ---------- */
+
+/* border-collapse deja una sola linea entre celda y celda */
+.tabla-redes {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.tabla-redes caption {
+  caption-side: bottom;
+  text-align: left;
+  color: #5F7278;
+  font-size: 13px;
+  padding-top: 8px;
+}
+
+.tabla-redes th {
+  background-color: #37474F;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 10px 12px;
+}
+
+.tabla-redes td {
+  border: 1px solid #CFDBDB;
+  padding: 10px 12px;
+  vertical-align: top;
+}
+
+/* la columna del medio va angosta para que la fila no se estire */
+.nunca,
+.cuidado,
+.libre {
+  width: 16%;
+  font-weight: bold;
+}
+
+.nunca {
+  color: #A61B2B;
+}
+
+.cuidado {
+  color: #9A6700;
+}
+
+.libre {
+  color: #1A7F5A;
+}
+
+
+/* ---------- recuadro de advertencia ---------- */
+
+.alerta-caja {
+  background-color: #263238;
+  border-left: 8px solid #0F9B8E;
+  border-radius: 10px;
+  color: #E3ECEC;
+  padding: 4px 26px 18px 26px;
+  margin-bottom: 34px;
+}
+
+.alerta-caja h2 {
+  color: #6ED3C7;
+  font-size: 20px;
+}
+
+.alerta-caja strong {
+  color: #FFFFFF;
+}
+
+.alerta-caja p {
+  margin: 0 0 10px 0;
+}
+
+
+/* ---------- enlace externo ---------- */
+
+.boton-fuente {
+  display: inline-block;
+  background-color: #0F9B8E;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 24px;
+}
+
+.boton-fuente:hover {
+  background-color: #263238;
+  color: #FFFFFF;
+}
+
+.tope {
+  text-align: center;
+  font-size: 13px;
+}
+
+
+/* ---------- pie ---------- */
+
+#abajo {
+  background-color: #263238;
+  border-top: 6px solid #0F9B8E;
+  color: #9DB0B5;
+  text-align: center;
+  font-size: 13px;
+  padding: 24px 20px 20px 20px;
+}
+
+.pie-nombre {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin: 0 0 6px 0;
+}
+
+/* address viene en cursiva por defecto */
+#abajo address {
+  font-style: normal;
+  margin-bottom: 8px;
+}
+
+#abajo p {
+  margin: 0;
+}
